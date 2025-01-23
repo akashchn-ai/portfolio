@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.projects-grid .card {
+    transition: transform 0.3s;
+}
+
+.projects-grid .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
